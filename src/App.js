@@ -11,7 +11,6 @@ function App() {
           <Redirect to="/main" />
         </Route>
         <Route path="/main">
-        
           <Main />
         </Route>
         {/* <Route path="/login" exact>

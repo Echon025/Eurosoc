@@ -1,24 +1,21 @@
 import styled from 'styled-components'
-
-export const StyledIconMenu = styled.div`
-  display: flex;
-  border: 0px solid #999;
-	border-radius: 10px;
-	background-color: rgba(0, 0, 0, 0);
-	color: black;
-	margin: auto;
-	padding: auto;
-	&:hover{
-		color: royalblue;
-	}
-  
+export const ImageEuro = styled.img`
+	/* background-image: url('public/images/LogoEurosoc.png'); */
+	/* src: url('public/images/LogoEurosoc.png'); */
 `
 export const StyledNavbar = styled.div`
 	display: flex;
 	justify-content: end;
 	width: 100%;
 	height: 5rem;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.8);
+`
+export const StyledNavbarFirst = styled.div`
+	display: flex;
+	justify-content: end;
+	width: 100%;
+	height: 5rem;
+	background-color: rgb(0, 0, 0);
 `
 
 export const NavButton = styled.button`
@@ -33,7 +30,7 @@ export const NavButton = styled.button`
 	font-weight: bold;
 	font-size: 1.25rem;
 	text-transform: uppercase;
-	&:hover{
+	&:hover {
 		color: royalblue;
 	}
 `
