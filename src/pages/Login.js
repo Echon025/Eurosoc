@@ -1,7 +1,7 @@
-import LoginCard from "../components/login/LoginCard";
+// import LoginCard from "../components/login/LoginCard";
 
-const Login = (props) => {
-  return <LoginCard/>;
-};
+// const Login = (props) => {
+//   return <LoginCard/>;
+// };
 
-export default Login;
+// export default Login;
