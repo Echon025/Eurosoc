@@ -34,6 +34,10 @@ export const NavButtonHello = styled.button`
 	height: 80%;
 	width: 60%;
 	z-index: 1;
+	transition: filter 0.4s;
+	&:hover {
+		filter: brightness(1.2);
+	}
 `
 export const NavButton = styled.button`
 	border: 0px solid #999;
@@ -49,8 +53,11 @@ export const NavButton = styled.button`
 	width: 7%;
 	z-index: 1;
 	transition: 0.5s;
+	transition: filter 0.4s;
+	transition: background-color 0.4s;
 	&:hover {
 		background-color: tomato;
+		filter: brightness(1.2);
 	}
 `
 export const NavButtonFirst = styled.button`
@@ -63,6 +70,11 @@ export const NavButtonFirst = styled.button`
 	text-transform: uppercase;
 	height: 80%;
 	z-index: 1;
+	cursor: pointer;
+	transition: filter;
+	&:hover{
+		filter: brightness(1.2);
+	}
 `
 export const NavRight = styled.span`
 	border: 0px solid #999;

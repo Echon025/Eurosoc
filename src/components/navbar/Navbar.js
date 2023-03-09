@@ -27,20 +27,16 @@ const Navbar = props => {
 			<StyledNavbarFirst>
 				<NavButtonHello>+48 799 220 330 - hello at eruosoc.eu</NavButtonHello>
 				<NavButtonFirst>
-					{' '}
-					<IconBrandLinkedin></IconBrandLinkedin>{' '}
+					<IconBrandLinkedin></IconBrandLinkedin>
 				</NavButtonFirst>
 				<NavButtonFirst>
-					{' '}
-					<IconBrandTwitterFilled></IconBrandTwitterFilled>{' '}
+					<IconBrandTwitterFilled></IconBrandTwitterFilled>
 				</NavButtonFirst>
 				<NavButtonFirst>
-					{' '}
-					<IconBrandFacebookFilled></IconBrandFacebookFilled>{' '}
+					<IconBrandFacebookFilled></IconBrandFacebookFilled>
 				</NavButtonFirst>
 				<NavButtonFirst>
-					{' '}
-					<IconBrandInstagram></IconBrandInstagram>{' '}
+					<IconBrandInstagram></IconBrandInstagram>
 				</NavButtonFirst>
 				<NavRight></NavRight>
 				<NavButtonFirst>PL</NavButtonFirst>
