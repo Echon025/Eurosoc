@@ -1,12 +1,15 @@
-import { IconSearch, IconMicrophone, IconKeyboard, IconCamera } from '@tabler/icons-react'
-import { StyledH1, StyledH1Blue, SearchBarMain, StyledButton, IconSearchStyle, IconStyle, IconStyleMicrophone  } from './Main.styled'
-
+import { BackgroundVideo, BackgroundSource, MainEuro, MainDiv } from './Main.styled'
 const Main = props => {
 	return (
 		<>
-			<StyledH1>
-				Eurosoc
-			</StyledH1>
+			<MainEuro>
+				<BackgroundVideo playing>
+					<BackgroundSource src='videos/eurosoc-mail-broken.mp4' type='video/mp4' />
+
+					<a href='videos/eurosoc-mail-broken.mp4'>MP4</a>
+				</BackgroundVideo>
+			</MainEuro>
+			<MainDiv></MainDiv>
 		</>
 	)
 }
